@@ -1,0 +1,18 @@
+{
+  "name": "stripe-i18n",
+  "version": "0.0.1",
+  "description": "Stripe i18n (json translations)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fizix-io/stripe-i18n.git"
+  },
+  "author": "FIZIX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fizix-io/stripe-i18n/issues"
+  },
+  "homepage": "https://github.com/fizix-io/stripe-i18n#readme"
+}
