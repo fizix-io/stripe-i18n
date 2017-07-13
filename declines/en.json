@@ -1,0 +1,212 @@
+{
+  "approve_with_id": {
+    "description": "The payment cannot be authorized.",
+    "instructions": "The payment should be attempted again. If it still cannot be processed, the customer needs to contact their bank.",
+    "customer_instructions": "The payment should be attempted again. If it still cannot be processed, you need to contact your bank."
+  },
+  "call_issuer": {
+    "description": "The card has been declined for an unknown reason.",
+    "instructions": "The customer needs to contact their bank for more information.",
+    "customer_instructions": "You need to contact your bank for more information."
+  },
+  "card_not_supported": {
+    "description": "The card does not support this type of purchase.",
+    "instructions": "The customer needs to contact their bank to make sure their card can be used to make this type of purchase.",
+    "customer_instructions": "You need to contact your bank to make sure your card can be used to make this type of purchase."
+  },
+  "card_velocity_exceeded": {
+    "description": "The customer has exceeded the balance or credit limit available on their card.",
+    "instructions": "The customer should contact their bank for more information.",
+    "customer_instructions": "You need to contact your bank for more information."
+  },
+  "currency_not_supported": {
+    "description": "The card does not support the specified currency.",
+    "instructions": "The customer needs check with the issuer that the card can be used for the type of currency specified.",
+    "customer_instructions": "You need to contact your bank to ensure that the card can be used for the type of currency specified."
+  },
+  "do_not_honor": {
+    "description": "The card has been declined for an unknown reason.",
+    "instructions": "The customer needs to contact their bank for more information.",
+    "customer_instructions": "You need to contact your bank for more information."
+  },
+  "do_not_try_again": {
+    "description": "The card has been declined for an unknown reason.",
+    "instructions": "The customer should contact their bank for more information.",
+    "customer_instructions": "You need to contact your bank for more information."
+  },
+  "duplicate_transaction": {
+    "description": "A transaction with identical amount and credit card information was submitted very recently.",
+    "instructions": "Check to see if a recent payment already exists.",
+    "customer_instructions": "Check to see if a recent payment already exists."
+  },
+  "expired_card": {
+    "description": "The card has expired.",
+    "instructions": "The customer should use another card.",
+    "customer_instructions": "You should use another card."
+  },
+  "fraudulent": {
+    "description": "The payment has been declined as Stripe suspects it is fraudulent.",
+    "instructions": "Do not report more detailed information to your customer. Instead, present as you would the generic_decline described below.",
+    "customer_instructions": "You need to contact your bank for more information."
+  },
+  "generic_decline": {
+    "description": "The card has been declined for an unknown reason.",
+    "instructions": "The customer needs to contact their bank for more information.",
+    "customer_instructions": "You need to contact your bank for more information."
+  },
+  "incorrect_number": {
+    "description": "The card number is incorrect.",
+    "instructions": "The customer should try again using the correct card number.",
+    "customer_instructions": "You should try again using the correct card number."
+  },
+  "incorrect_cvc": {
+    "description": "The CVC number is incorrect.",
+    "instructions": "The customer should try again using the correct CVC.",
+    "customer_instructions": "You should try again using the correct CVC."
+  },
+  "incorrect_pin": {
+    "description": "The PIN entered is incorrect. This decline code only applies to payments made with a card reader.",
+    "instructions": "The customer should try again using the correct PIN.",
+    "customer_instructions": "You should try again using the correct PIN."
+  },
+  "incorrect_zip": {
+    "description": "The ZIP/postal code is incorrect.",
+    "instructions": "The customer should try again using the correct billing ZIP/postal code.",
+    "customer_instructions": "Check your billing ZIP/postal code."
+  },
+  "insufficient_funds": {
+    "description": "The card has insufficient funds to complete the purchase.",
+    "instructions": "The customer should use an alternative payment method.",
+    "customer_instructions": "You should use an alternative payment method."
+  },
+  "invalid_account": {
+    "description": "The card, or account the card is connected to, is invalid.",
+    "instructions": "The customer needs to contact their bank to check that the card is working correctly.",
+    "customer_instructions": "You need to contact your bank for more information."
+  },
+  "invalid_amount": {
+    "description": "The payment amount is invalid, or exceeds the amount that is allowed.",
+    "instructions": "If the amount appears to be correct, the customer needs to check with their bank that they can make purchases of that amount.",
+    "customer_instructions": "You need to contact your bank for more information.",
+  },
+  "invalid_cvc": {
+    "description": "The CVC number is incorrect.",
+    "instructions": "The customer should try again using the correct CVC.",
+    "customer_instructions": "You should try again using the correct CVC."
+  },
+  "invalid_expiry_year": {
+    "description": "The expiration year invalid.",
+    "instructions": "The customer should try again using the correct expiration date.",
+    "customer_instructions": "You should try again using the correct expiration date."
+  },
+  "invalid_number": {
+    "description": "The card number is incorrect.",
+    "instructions": "The customer should try again using the correct card number.",
+    "customer_instructions": "You should try again using the correct card number."
+  },
+  "invalid_pin": {
+    "description": "The PIN entered is incorrect. This decline code only applies to payments made with a card reader.",
+    "instructions": "The customer should try again using the correct PIN.",
+    "customer_instructions": "You should try again using the correct PIN."
+  },
+  "issuer_not_available": {
+    "description": "The card issuer could not be reached, so the payment could not be authorized.",
+    "instructions": "The payment should be attempted again. If it still cannot be processed, the customer needs to contact their bank.",
+    "customer_instructions": "The payment should be attempted again. If it still cannot be processed, you need to contact your bank."
+  },
+  "lost_card": {
+    "description": "The payment has been declined because the card is reported lost.",
+    "instructions": "The specific reason for the decline should not be reported to the customer. Instead, it needs to be presented as a generic decline.",
+    "customer_instructions": "You need to contact your bank for more information."
+  },
+  "new_account_information_available": {
+    "description": "The card, or account the card is connected to, is invalid.",
+    "instructions": "The customer needs to contact their bank for more information.",
+    "customer_instructions": "You need to contact your bank for more information."
+  },
+  "no_action_taken": {
+    "description": "The card has been declined for an unknown reason.",
+    "instructions": "The customer should contact their bank for more information.",
+    "customer_instructions": "You need to contact your bank for more information."
+  },
+  "not_permitted": {
+    "description": "The payment is not permitted.",
+    "instructions": "The customer needs to contact their bank for more information.",
+    "customer_instructions": "You need to contact your bank for more information."
+  },
+  "pickup_card": {
+    "description": "The card cannot be used to make this payment (it is possible it has been reported lost or stolen).",
+    "instructions": "The customer needs to contact their bank for more information.",
+    "customer_instructions": "You need to contact your bank for more information."
+  },
+  "pin_try_exceeded": {
+    "description": "The allowable number of PIN tries has been exceeded.",
+    "instructions": "The customer must use another card or method of payment.",
+    "customer_instructions": "You should use another card or method of payment."
+  },
+  "processing_error": {
+    "description": "An error occurred while processing the card.",
+    "instructions": "The payment should be attempted again. If it still cannot be processed, try again later.",
+    "customer_instructions": "The payment should be attempted again. If it still cannot be processed, try again later."
+  },
+  "reenter_transaction": {
+    "description": "The payment could not be processed by the issuer for an unknown reason.",
+    "instructions": "The payment should be attempted again. If it still cannot be processed, the customer needs to contact their bank.",
+    "customer_instructions": "The payment should be attempted again. If it still cannot be processed, you need to contact your bank."
+  },
+  "restricted_card": {
+    "description": "The card cannot be used to make this payment (it is possible it has been reported lost or stolen).",
+    "instructions": "The customer needs to contact their bank for more information.",
+    "customer_instructions": "You need to contact your bank for more information."
+  },
+  "revocation_of_all_authorizations": {
+    "description": "The card has been declined for an unknown reason.",
+    "instructions": "The customer should contact their bank for more information.",
+    "customer_instructions": "You need to contact your bank for more information."
+  },
+  "revocation_of_authorization": {
+    "description": "The card has been declined for an unknown reason.",
+    "instructions": "The customer should contact their bank for more information.",
+    "customer_instructions": "You need to contact your bank for more information."
+  },
+  "security_violation": {
+    "description": "The card has been declined for an unknown reason.",
+    "instructions": "The customer needs to contact their bank for more information.",
+    "customer_instructions": "You need to contact your bank for more information."
+  },
+  "service_not_allowed": {
+    "description": "The card has been declined for an unknown reason.",
+    "instructions": "The customer should contact their bank for more information.",
+    "customer_instructions": "You need to contact your bank for more information."
+  },
+  "stolen_card": {
+    "description": "The payment has been declined because the card is reported stolen.",
+    "instructions": "The specific reason for the decline should not be reported to the customer. Instead, it needs to be presented as a generic decline.",
+    "customer_instructions": "You need to contact your bank for more information."
+  },
+  "stop_payment_order": {
+    "description": "The card has been declined for an unknown reason.",
+    "instructions": "The customer should contact their bank for more information.",
+    "customer_instructions": "You need to contact your bank for more information."
+  },
+  "testmode_decline": {
+    "description": "A Stripe test card number was used.",
+    "instructions": "A genuine card must be used to make a payment.",
+    "customer_instructions": "A genuine card must be used to make a payment.",
+  },
+  "transaction_not_allowed": {
+    "description": "The card has been declined for an unknown reason.",
+    "instructions": "The customer needs to contact their bank for more information.",
+    "customer_instructions": "You need to contact your bank for more information."
+  },
+  "try_again_later": {
+    "description": "The card has been declined for an unknown reason.",
+    "instructions": "Ask the customer to attempt the payment again. If subsequent payments are declined, the customer should contact their bank for more information.",
+    "customer_instructions": "The payment should be attempted again. If it still cannot be processed, you need to contact your bank."
+  },
+  "withdrawal_count_limit_exceeded": {
+    "description": "The customer has exceeded the balance or credit limit available on their card.",
+    "instructions": "The customer should use an alternative payment method.",
+    "customer_instructions": "You should use an alternative payment method."
+  }
+}
