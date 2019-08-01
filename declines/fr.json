@@ -1,212 +1,212 @@
 {
   "approve_with_id": {
     "description": "Le paiement ne peut être autorisé",
-    "instructions": "Le paiement devrait être tenté à nouveau. S'il ne peut toujours pas être traité, le client doit contacter sa banque.",
-    "customer_instructions": "Le paiement devrait être tenté à nouveau. S'il ne peut toujours pas être traité, vous devez contacter votre banque."
+    "instructions": "Le paiement devrait être tenté à nouveau. S'il ne peut toujours pas être traité, le client doit contacter sa banque",
+    "customer_instructions": "Le paiement devrait être tenté à nouveau. S’il ne peut toujours pas être traité, veuillez contacter votre banque."
   },
   "call_issuer": {
-    "description": "La carte a été refusée pour une raison inconnue.",
-    "instructions": "Le client doit contacter sa banque pour plus d'informations.",
-    "customer_instructions": "Vous devez contacter votre banque pour plus d'informations."
+    "description": "La carte a été refusée pour une raison inconnue",
+    "customer_instructions": "Vous devez contacter votre banque pour plus d'informations.",
+    "customer_instructions": "Veuillez contacter votre banque pour plus d’informations."
   },
   "card_not_supported": {
-    "description": "La carte ne prend pas en charge ce type d'achat",
+    "description": "La carte ne prend pas en charge ce type d’achat",
     "instructions": "Le client doit contacter sa banque pour s'assurer que sa carte peut être utilisée pour effectuer ce type d'achat",
-    "customer_instructions": "Vous devez contacter votre banque pour s'assurer que votre carte peut être utilisée pour effectuer ce type d'achat"
+    "customer_instructions": "Veuillez contacter votre banque pour s’assurer que votre carte peut être utilisée pour effectuer ce type d’achat"
   },
   "card_velocity_exceeded": {
-    "description": "Le client a dépassé le solde ou la limite de crédit disponible sur sa carte.",
-    "instructions": "Le client doit contacter sa banque pour plus d'informations.",
-    "customer_instructions": "Vous devez contacter votre banque pour plus d'informations."
+    "description": "Le paiement a été refusé par votre banque. Le solde ou la limite de crédit disponible sur votre carte a été dépassé",
+    "instructions": "Le client doit contacter sa banque pour plus d'informations",
+    "customer_instructions": "Veuillez contacter votre banque pour plus d’informations."
   },
   "currency_not_supported": {
-    "description": "La carte ne prend pas en charge la devise spécifiée.",
+    "description": "La carte ne prend pas en charge la devise spécifiée",
     "instructions": "Le client a besoin de vérifier auprès de l'émetteur que la carte peut être utilisée pour le type de devise spécifié",
     "customer_instructions": "Vous devez vérifier auprès de votre banque que la carte peut être utilisée pour le type de devise spécifié"
   },
   "do_not_honor": {
-    "description": "La carte a été refusée pour une raison inconnue.",
-    "instructions": "Le client doit contacter sa banque pour plus d'informations.",
-    "customer_instructions": "Vous devez contacter votre banque pour plus d'informations."
+    "description": "La carte a été refusée pour une raison inconnue",
+    "instructions": "Le client doit contacter sa banque pour plus d'informations",
+    "customer_instructions": "Veuillez contacter votre banque pour plus d’informations."
   },
   "do_not_try_again": {
-    "description": "La carte a été refusée pour une raison inconnue.",
-    "instructions": "Le client doit contacter sa banque pour plus d'informations.",
-    "customer_instructions": "Vous devez contacter votre banque pour plus d'informations."
+    "description": "La carte a été refusée pour une raison inconnue",
+    "instructions": "Le client doit contacter sa banque pour plus d'informations",
+    "customer_instructions": "Veuillez contacter votre banque pour plus d’informations."
   },
   "duplicate_transaction": {
-    "description": "Une transaction avec un montant identique et des informations sur la carte de crédit a été soumise très récemment.",
-    "instructions": "Vérifiez si un paiement récent existe déjà.",
+    "description": "Une transaction avec un montant identique et des informations sur la carte de crédit ont été soumis très récemment",
+    "instructions": "Vérifiez si un paiement récent existe déjà",
     "customer_instructions": "Vérifiez si un paiement récent existe déjà."
   },
   "expired_card": {
     "description": "La carte a expiré",
-    "instructions": "Le client devrait utiliser une autre carte.",
-    "customer_instructions": "Vérifiez la date d'expiration de votre carte."
+    "instructions": "Le client devrait utiliser une autre carte",
+    "customer_instructions": "Vérifiez la date d’expiration de votre carte."
   },
   "fraudulent": {
-    "description": "Le paiement a été refusé car Stripe soupçonne qu'il est frauduleux.",
-    "instructions": "Ne pas signaler des informations plus détaillées à votre client. Au lieu de cela, présentez comme vous le feriez le code générique décrit ci-dessous.",
-    "customer_instructions": "Vous devez contacter votre banque pour plus d'informations."
+    "description": "Le paiement a été refusé",
+    "instructions": "Ne pas signaler des informations plus détaillées à votre client. Au lieu de cela, présentez comme vous le feriez le code générique décrit ci-dessous",
+    "customer_instructions": "Veuillez contacter votre banque pour plus d’informations."
   },
   "generic_decline": {
-    "description": "La carte a été refusée pour une raison inconnue.",
-    "instructions": "Le client doit contacter sa banque pour plus d'informations.",
-    "customer_instructions": "Vous devez contacter votre banque pour plus d'informations."
+    "description": "La carte a été refusée pour une raison inconnue",
+    "instructions": "Le client doit contacter sa banque pour plus d'informations",
+    "customer_instructions": "Veuillez contacter votre banque pour plus d’informations."
   },
   "incorrect_number": {
-    "description": "Le numéro de carte est incorrect.",
-    "instructions": "Le client devrait essayer à nouveau en utilisant le bon numéro de carte.",
-    "customer_instructions": "Veuillez verifier le numéro de votre carte."
+    "description": "Le numéro de carte est incorrect",
+    "instructions": "Le client devrait essayer à nouveau en utilisant le bon numéro de carte",
+    "customer_instructions": "Veuillez vérifier le numéro de votre carte."
   },
   "incorrect_cvc": {
-    "description": "Le numéro CVC est incorrect.",
+    "description": "Le numéro CVC est incorrect",
     "instructions": "Le client devrait essayer à nouveau en utilisant le bon CVC",
-    "customer_instructions": "Veuillez verifier le CVC de votre carte."
+    "customer_instructions": "Veuillez vérifier le CVC de votre carte."
   },
   "incorrect_pin": {
-    "description": "Le code PIN entré est incorrect. Ce code de refus s'applique uniquement aux paiements effectués avec un lecteur de carte.",
+    "description": "Le code PIN entré est incorrect. Ce code de refus s’applique uniquement aux paiements effectués avec un lecteur de carte",
     "instructions": "Le client devrait essayer à nouveau en utilisant le code PIN correct",
-    "customer_instructions": "Code PIN incorrect."
+    "customer_instructions": ""
   },
   "incorrect_zip": {
-    "description": "Le code postal / postal est incorrect",
+    "description": "Le code postal  est incorrect",
     "instructions": "Le client devrait essayer à nouveau en utilisant le code postal / code postal correct",
-    "customer_instructions": "Veuillez verifier votre adresse de facturation."
+    "customer_instructions": "Veuillez vérifier votre adresse de facturation."
   },
   "insufficient_funds": {
-    "description": "La carte n'a pas suffisamment de fonds pour compléter l'achat.",
-    "instructions": "Le client devrait utiliser une méthode de paiement alternative.",
+    "description": "La carte n’a pas suffisamment de fonds pour finaliser l’achat",
+    "instructions": "Le client devrait utiliser une méthode de paiement alternative",
     "customer_instructions": "Vous pouvez utiliser une méthode de paiement alternative."
   },
   "invalid_account": {
-    "description": "La carte ou le compte auquel la carte est connectée est invalide.",
+    "description": "La carte ou le compte auquel la carte est connectée est invalide",
     "instructions": "Le client doit contacter sa banque pour vérifier que la carte fonctionne correctement",
-    "customer_instructions": "Vous devez contacter votre banque pour plus d'informations."
+    "customer_instructions": "Veuillez contacter votre banque pour plus d’informations."
   },
   "invalid_amount": {
     "description": "Le montant du paiement est invalide ou dépasse le montant autorisé",
     "instructions": "Si le montant semble être correct, le client doit vérifier auprès de leur banque qu'ils peuvent effectuer des achats de ce montant",
-    "customer_instructions": "Vous devez contacter votre banque pour plus d'informations."
+    "customer_instructions": "Veuillez contacter votre banque pour plus d’informations."
   },
   "invalid_cvc": {
-    "description": "Le numéro CVC est incorrect.",
-    "instructions": "Le client devrait essayer à nouveau en utilisant le bon CVC",
-    "customer_instructions": "Veuillez verifier le CVC de votre carte."
+    "description": "Le numéro CVC est incorrect",
+    "instructions": "Veuillez verifier le CVC de votre carte.",
+    "customer_instructions": "Veuillez vérifier le CVC de votre carte."
   },
   "invalid_expiry_year": {
-    "description": "L'année d'expiration n'est pas valide.",
-    "instructions": "Le client devrait essayer à nouveau en utilisant la date d'expiration correcte.",
-    "customer_instructions": "Veuillez verifier la date d'expiration de votre carte."
+    "description": "L’année d’expiration n’est pas valide",
+    "instructions": "Le client devrait essayer à nouveau en utilisant la date d'expiration correcte",
+    "customer_instructions": "Veuillez vérifier la date d’expiration de votre carte."
   },
   "invalid_number": {
-    "description": "Le numéro de carte est incorrect.",
-    "instructions": "Le client devrait essayer à nouveau en utilisant le bon numéro de carte.",
-    "customer_instructions": "Veuillez verifier le numéro de votre carte."
+    "description": "Le numéro de carte est incorrect",
+    "instructions": "Le client devrait essayer à nouveau en utilisant le bon numéro de carte",
+    "customer_instructions": "Veuillez vérifier le numéro de votre carte."
   },
   "invalid_pin": {
-    "description": "Le code PIN entré est incorrect. Ce code de refus s'applique uniquement aux paiements effectués avec un lecteur de carte.",
+    "description": "Le code PIN entré est incorrect. ",
     "instructions": "Le client devrait essayer à nouveau en utilisant le code PIN correct",
-    "customer_instructions": "Code PIN incorrect."
+    "customer_instructions": ""
   },
   "issuer_not_available": {
-    "description": "L'émetteur de la carte n'a pas pu être atteint, de sorte que le paiement n'a pas pu être autorisé",
-    "instructions": "Le paiement devrait être tenté à nouveau. S'il ne peut toujours pas être traité, le client doit contacter sa banque.",
-    "customer_instructions": "Le paiement devrait être tenté à nouveau. S'il ne peut toujours pas être traité, vous devez contacter votre banque."
+    "description": "L’émetteur de la carte n’a pas pu être atteint, de sorte que le paiement n’a pas pu être autorisé",
+    "instructions": "Le paiement devrait être tenté à nouveau. S'il ne peut toujours pas être traité, le client doit contacter sa banque",
+    "customer_instructions": "Le paiement devrait être tenté à nouveau. S’il ne peut toujours pas être traité, Veuillez contacter votre banque."
   },
   "lost_card": {
-    "description": "Le paiement a été refusé car la carte est reportée perdue.",
-    "instructions": "La raison spécifique du déclin ne doit pas être signalée au client. Au lieu de cela, il doit être présenté comme un déclin générique.",
-    "customer_instructions": "Vous devez contacter votre banque pour plus d'informations."
+    "description": "Le paiement a été refusé par votre banque",
+    "instructions": "Le paiement devrait être tenté à nouveau. S'il ne peut toujours pas être traité, le client doit contacter sa banque",
+    "customer_instructions": "Veuillez contacter votre banque pour plus d’informations."
   },
   "new_account_information_available": {
-    "description": "La carte ou le compte auquel la carte est connectée est invalide.",
-    "instructions": "Le client doit contacter sa banque pour plus d'informations.",
-    "customer_instructions": "Vous devez contacter votre banque pour plus d'informations."
+    "description": "La carte ou le compte auquel la carte est connectée est invalide",
+    "instructions": "Le client doit contacter sa banque pour plus d'informations",
+    "customer_instructions": "Veuillez contacter votre banque pour plus d’informations."
   },
   "no_action_taken": {
-    "description": "La carte a été refusée pour une raison inconnue.",
-    "instructions": "Le client doit contacter sa banque pour plus d'informations.",
-    "customer_instructions": "Vous devez contacter votre banque pour plus d'informations."
+    "description": "La carte a été refusée pour une raison inconnue",
+    "instructions": "Le client doit contacter sa banque pour plus d'informations",
+    "customer_instructions": "Veuillez contacter votre banque pour plus d’informations."
   },
   "not_permitted": {
-    "description": "Le paiement n'est pas autorisé",
-    "instructions": "Le client doit contacter sa banque pour plus d'informations.",
-    "customer_instructions": "Vous devez contacter votre banque pour plus d'informations."
+    "description": "Le paiement n’est pas autorisé",
+    "instructions": "Le client doit contacter sa banque pour plus d'informations",
+    "customer_instructions": "Veuillez contacter votre banque pour plus d’informations."
   },
   "pickup_card": {
-    "description": "La carte ne peut pas être utilisée pour effectuer ce paiement (il est possible qu'il ait été signalé perdu ou volé)",
-    "instructions": "Le client doit contacter sa banque pour plus d'informations.",
-    "customer_instructions": "Vous devez contacter votre banque pour plus d'informations."
+    "description": "La carte ne peut pas être utilisée pour effectuer ce paiement (il est possible qu’elle ait été signalée perdue ou volée)",
+    "instructions": "Le client doit contacter sa banque pour plus d'informations",
+    "customer_instructions": "Veuillez contacter votre banque pour plus d’informations."
   },
   "pin_try_exceeded": {
-    "description": "Le nombre autorisé d'essais PIN a été dépassé.",
+    "description": "Le nombre autorisé d’essais PIN a été dépassé",
     "instructions": "Le client doit utiliser une autre carte ou mode de paiement",
     "customer_instructions": "Vous devez utiliser une autre carte et/ou contacter votre banque."
   },
   "processing_error": {
-    "description": "Une erreur s'est produite lors du traitement de la carte.",
-    "instructions": "Le paiement doit être tenté à nouveau. S'il ne peut toujours pas être traité, essayez à nouveau plus tard.",
-    "customer_instructions": "Le paiement devrait être tenté à nouveau. S'il ne peut toujours pas être traité, vous devez contacter votre banque."
+    "description": "Une erreur s’est produite lors du traitement de la carte",
+    "instructions": "Le paiement doit être tenté à nouveau. S'il ne peut toujours pas être traité, essayez à nouveau plus tard",
+    "customer_instructions": "Le paiement devrait être tenté à nouveau. S’il ne peut toujours pas être traité, veuillez contacter votre banque."
   },
   "reenter_transaction": {
-    "description": "Le paiement n'a pas pu être traité par l'émetteur pour une raison inconnue.",
-    "instructions": "Le paiement devrait être tenté à nouveau. S'il ne peut toujours pas être traité, le client doit contacter sa banque.",
-    "customer_instructions": "Le paiement devrait être tenté à nouveau. S'il ne peut toujours pas être traité, vous devez contacter votre banque."
+    "description": "Le paiement n’a pas pu être traité par l’émetteur pour une raison inconnue",
+    "instructions": "Le paiement devrait être tenté à nouveau. S'il ne peut toujours pas être traité, le client doit contacter sa banque",
+    "customer_instructions": "Le paiement devrait être tenté à nouveau. S’il ne peut toujours pas être traité, veuillez contacter votre banque."
   },
   "restricted_card": {
-    "description": "La carte ne peut pas être utilisée pour effectuer ce paiement (il est possible qu'il ait été signalé perdu ou volé).",
-    "instructions": "Le client doit contacter sa banque pour plus d'informations.",
-    "customer_instructions": "Vous devez contacter votre banque pour plus d'informations."
+    "description": "La carte ne peut pas être utilisée pour effectuer ce paiement",
+    "instructions": "Le client doit contacter sa banque pour plus d'informations",
+    "customer_instructions": "Veuillez contacter votre banque pour plus d’informations."
   },
   "revocation_of_all_authorizations": {
-    "description": "La carte a été refusée pour une raison inconnue.",
-    "instructions": "Le client doit contacter sa banque pour plus d'informations.",
-    "customer_instructions": "Vous devez contacter votre banque pour plus d'informations."
+    "description": "La carte a été refusée pour une raison inconnue",
+    "instructions": "Le client doit contacter sa banque pour plus d'informations (il est possible qu’elle ait été signalée perdue ou volée).",
+    "customer_instructions": "Veuillez contacter votre banque pour plus d’informations."
   },
   "revocation_of_authorization": {
-    "description": "La carte a été refusée pour une raison inconnue.",
-    "instructions": "Le client doit contacter sa banque pour plus d'informations.",
-    "customer_instructions": "Vous devez contacter votre banque pour plus d'informations."
+    "description": "La carte a été refusée pour une raison inconnue",
+    "instructions": "Le client doit contacter sa banque pour plus d'informations",
+    "customer_instructions": "Veuillez contacter votre banque pour plus d’informations."
   },
   "security_violation": {
-    "description": "La carte a été refusée pour une raison inconnue.",
-    "instructions": "Le client doit contacter sa banque pour plus d'informations.",
-    "customer_instructions": "Vous devez contacter votre banque pour plus d'informations."
+    "description": "La carte a été refusée pour une raison inconnue",
+    "instructions": "Le client doit contacter sa banque pour plus d'informations",
+    "customer_instructions": "Veuillez contacter votre banque pour plus d’informations."
   },
   "service_not_allowed": {
-    "description": "La carte a été refusée pour une raison inconnue.",
-    "instructions": "Le client doit contacter sa banque pour plus d'informations.",
-    "customer_instructions": "Vous devez contacter votre banque pour plus d'informations."
+    "description": "La carte a été refusée pour une raison inconnue",
+    "instructions": "Le client doit contacter sa banque pour plus d'informations",
+    "customer_instructions": "Veuillez contacter votre banque pour plus d’informations."
   },
   "stolen_card": {
-    "description": "Le paiement a été refusé car la carte a été volée.",
-    "instructions": "La raison spécifique du déclin ne doit pas être signalée au client. Au lieu de cela, il doit être présenté comme un déclin générique.",
-    "customer_instructions": "Vous devez contacter votre banque pour plus d'informations."
+    "description": "Le paiement a été refusé",
+    "instructions": "Le client doit contacter sa banque pour plus d'informations (carte volée)",
+    "customer_instructions": "Veuillez contacter votre banque pour plus d’informations."
   },
   "stop_payment_order": {
-    "description": "La carte a été refusée pour une raison inconnue.",
-    "instructions": "Le client doit contacter sa banque pour plus d'informations.",
-    "customer_instructions": "Vous devez contacter votre banque pour plus d'informations."
+    "description": "La carte a été refusée pour une raison inconnue",
+    "instructions": "Le client doit contacter sa banque pour plus d'informations",
+    "customer_instructions": "Veuillez contacter votre banque pour plus d’informations."
   },
   "testmode_decline": {
-    "description": "Un numéro de carte de test Stripe a été utilisé.",
+    "description": "Un numéro de carte de test Stripe a été utilisé",
     "instructions": "Une carte authentique doit être utilisée pour effectuer un paiement",
     "customer_instructions": "Une vraie CB doit être utilisée."
   },
   "transaction_not_allowed": {
-    "description": "La carte a été refusée pour une raison inconnue.",
-    "instructions": "Le client doit contacter sa banque pour plus d'informations.",
-    "customer_instructions": "Vous devez contacter votre banque pour plus d'informations."
+    "description": "La carte a été refusée pour une raison inconnue",
+    "instructions": "Le client doit contacter sa banque pour plus d'informations",
+    "customer_instructions": "Veuillez contacter votre banque pour plus d’informations."
   },
   "try_again_later": {
-    "description": "La carte a été refusée pour une raison inconnue.",
-    "instructions": "Demandez au client d'essayer de nouveau le paiement. Si les paiements ultérieurs sont refusés, le client doit contacter sa banque pour plus d'informations.",
-    "customer_instructions": "Le paiement devrait être tenté à nouveau. S'il ne peut toujours pas être traité, vous devez contacter votre banque."
+    "description": "La carte a été refusée pour une raison inconnue",
+    "instructions": "Demandez au client d'essayer de nouveau le paiement. Si les paiements ultérieurs sont refusés, le client doit contacter sa banque pour plus d'informations",
+    "customer_instructions": "Le paiement devrait être tenté à nouveau. S’il ne peut toujours pas être traité, veuillez contacter votre banque."
   },
   "withdrawal_count_limit_exceeded": {
-    "description": "Le client a dépassé le solde ou la limite de crédit disponible sur sa carte.",
-    "instructions": "Le client devrait utiliser une méthode de paiement alternative.",
+    "description": "Le solde ou la limite de crédit disponible sur sa carte a été dépassé",
+    "instructions": "Le client devrait utiliser une méthode de paiement alternative",
     "customer_instructions": "Vous devriez utiliser une méthode de paiement alternative."
   }
 }
