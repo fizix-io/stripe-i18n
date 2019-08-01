@@ -1,5 +1,5 @@
 {
-  "name": "stripe-i18n",
+  "name": "@fizix/stripe-i18n",
   "version": "0.0.2",
   "description": "Stripe i18n (json translations)",
   "scripts": {
