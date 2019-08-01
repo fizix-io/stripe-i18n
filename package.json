@@ -1,6 +1,6 @@
 {
   "name": "stripe-i18n",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Stripe i18n (json translations)",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
